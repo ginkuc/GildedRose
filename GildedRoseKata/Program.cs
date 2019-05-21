@@ -51,8 +51,6 @@ namespace GildedRoseKata
                 Console.WriteLine("");
                 app.UpdateQuality();
             }
-
-            Console.ReadLine();
         }
     }
 }
