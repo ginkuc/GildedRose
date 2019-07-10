@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GildedRoseKata.Strategies;
+using System;
 using System.Collections.Generic;
 
 namespace GildedRoseKata
@@ -26,5 +27,7 @@ namespace GildedRoseKata
                 app.UpdateQuality();
             }
         }
+
+        
     }
 }
