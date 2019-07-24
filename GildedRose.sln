@@ -3,12 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GildedRoseKata", "GildedRoseKata\GildedRoseKata.csproj", "{A1B393A4-1DF1-40D2-8EE6-788DE30F69BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GildedRoseKata", "src\GildedRoseKata\GildedRoseKata.csproj", "{A1B393A4-1DF1-40D2-8EE6-788DE30F69BA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ECB98B1C-DFBD-4F6E-B1F3-6E9D70E71B39}"
-	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F121861F-442E-4034-913F-46FDE55AE68C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRoseKata.Tests", "tests\GildedRoseKata.Tests\GildedRoseKata.Tests.csproj", "{B190D3A5-BD1B-4837-B90B-9F94F44397D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +19,16 @@ Global
 		{A1B393A4-1DF1-40D2-8EE6-788DE30F69BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1B393A4-1DF1-40D2-8EE6-788DE30F69BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1B393A4-1DF1-40D2-8EE6-788DE30F69BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B190D3A5-BD1B-4837-B90B-9F94F44397D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B190D3A5-BD1B-4837-B90B-9F94F44397D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B190D3A5-BD1B-4837-B90B-9F94F44397D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B190D3A5-BD1B-4837-B90B-9F94F44397D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B190D3A5-BD1B-4837-B90B-9F94F44397D9} = {F121861F-442E-4034-913F-46FDE55AE68C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96F16584-6802-4165-B56F-D53C999745C4}
